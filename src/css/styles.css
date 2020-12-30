@@ -1,0 +1,34 @@
+body{
+    background-color: white;
+}
+.heading{
+    font-size: 50px;
+    text-align: center;
+    color: burlywood;
+    height: 25%;
+    background-color: wheat;
+}
+.wrapper{
+    display: flex;
+}
+.logout{
+    height: 80px;
+    width: 80px;
+    float: left;
+    background-color: rgb(245, 194, 194);
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 40px;
+}
+.option1,.option2,.option3,.option4{
+    flex: 1;
+    text-align: center;
+    font-size: 30px;
+    border: gray 1px ;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
